@@ -1,5 +1,4 @@
 rm(list = ls())
-setwd("~/Documents/Coursera/ExploratoryData")
 data=read.table("household_power_consumption.txt",header=TRUE,sep=";")
 
 dates=data$Date=="1/2/2007" | data$Date=="2/2/2007"
